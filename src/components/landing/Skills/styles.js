@@ -52,6 +52,11 @@ export const Thumbnail = styled.div`
   }
 
   img {
-    width: 100%;
+    width: 70%;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+    border-radius: 50%;
+    image-rendering: pixelated;
+    margin: 0px;
   }
 `;

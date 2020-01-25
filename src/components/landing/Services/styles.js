@@ -7,7 +7,7 @@ export const Wrapper = styled.div`
 export const Grid = styled.div`
   display: grid;
   align-items: center;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 8fr;
   gap: 1.2rem 1.2rem;
 
@@ -32,6 +32,14 @@ export const Item = styled.div`
 
   p {
     color: #707070;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  img {
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 `;
 

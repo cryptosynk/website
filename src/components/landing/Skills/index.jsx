@@ -1,20 +1,19 @@
 import React from 'react'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import { Container, Button } from 'components/common'
-import dev from 'assets/illustrations/skills.svg'
+import zahid from "../../../images/zahid.png"
 import { Wrapper, SkillsWrapper, Details, Thumbnail } from './styles'
 
 export const Skills = () => (
   <Wrapper id="about">
     <SkillsWrapper as={Container}>
       <Thumbnail>
-        <img src={dev} alt="I’m John and I’m a Backend & Devops engineer!" />
+        <img src={zahid} alt="I’m Zahid and I’m a Blockchain & Data engineer!" />
       </Thumbnail>
       <Details>
         <h1>Hi There!</h1>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry’s standard dummy.
+        Hi, I'm Zahid. I specialize in Blockchain & Machine Learning Pipeline development.
         </p>
         <Button as={AnchorLink} href="#contact">
           Hire me

@@ -1,9 +1,9 @@
 {
-  "name": "portfolio",
+  "name": "cryptosynk",
   "private": true,
-  "description": "A simple portfolio for developers",
+  "description": "Cryptosynk company website",
   "version": "0.1.2",
-  "author": "Smakosh <ismai23l@hotmail.com>",
+  "author": "Zahidul Islam <zahid@cryptosynk.com>",
   "dependencies": {
     "dotenv": "^6.2.0",
     "formik": "^1.4.1",
@@ -32,9 +32,12 @@
     "yup": "^0.26.6"
   },
   "keywords": [
-    "gatsby",
+    "blockchain",
     "portfolio",
-    "developer"
+    "developer",
+    "consulting",
+    "machine learning",
+    "deep learning"
   ],
   "license": "MIT",
   "scripts": {
