@@ -7,12 +7,6 @@
   },
   {
     "id": 2,
-    "name": "LinkedIn",
-    "link": "https://www.linkedin.com/in/zahiduli/",
-    "icon": "/icons/linkedin.svg"
-  },
-  {
-    "id": 3,
     "name": "Twitter",
     "link": "https://twitter.com/zahidsharp",
     "icon": "/icons/twitter.svg"

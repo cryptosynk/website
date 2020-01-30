@@ -1,15 +1,14 @@
 import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 import { Container, Card } from 'components/common'
-import ml from 'assets/illustrations/dev.svg'
-import blockchain from 'assets/illustrations/bitcoin.svg'
+import data from 'assets/illustrations/data.svg'
 import { Wrapper, Grid, Item, Content, Stats } from './styles'
-import { Skills } from '../Skills'
+import detailed_analysis from "assets/illustrations/detailed_analysis.svg"
 
 export const Services = () => {
   return (
     <Wrapper as={Container} id="services">
-      <h2>Services</h2>
+      <h1>Services</h1>
       <Grid>
             <Item
               key={1}
@@ -19,11 +18,11 @@ export const Services = () => {
             rel="noopener noreferrer">
               <Card>
               <Content>
-                <h4>Blockchain solutions</h4>
-                <img style={{opacity: 0.8}} src={blockchain} alt="Blockchain" />
-                <h4>Comprehensive offerings to guide your blockchain journey</h4>
+                <h2>Consulting</h2>
+                <img style={{opacity: 0.8}} src={detailed_analysis} alt="analysis" />
                 <p>
-                We help clients explore every aspect of blockchain and build solutions designed to deliver value.</p>
+                We provide strategic guidance throughout your ML development projects. Starting with goal-setting and analysis of your business processes and data sources, we offer scenarios for business process optimization with machine learning algorithms, define the expected results, select technologies, and outline the development scope.
+                </p>
               </Content>
               </Card>
             </Item>
@@ -35,11 +34,10 @@ export const Services = () => {
             rel="noopener noreferrer">
               <Card>
               <Content>
-                <h4>Machine Learning Solutions</h4>
-                <img src={ml} alt="Blockchain" />
-                <h4>We can help you build DL/ML Products</h4>
+                <h2>Implementation</h2>
+                <img src={data} alt="Blockchain" />
                 <p>
-                  We use machine learning (ML) tools and algorithms to help companies develop machine learning products and solutions.
+                We shape ML models into fully functioning AI solutions. Our ML experts ensure that machine learning solutions operate smoothly within software ecosystems and perform properly without jeopardizing the integrity and operation of deployed systems.
                 </p>
               </Content>
               </Card>
